@@ -1,0 +1,128 @@
+body {
+  margin: 0;
+  background: #23252c;
+  font-family: "Inter", sans-serif;
+}
+
+h1,
+h2,
+h3,
+p,
+button {
+  color: #fff;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1 {
+  font-size: 1.563rem;
+  font-weight: 700;
+}
+
+h3 {
+  font-size: 0.75rem;
+  font-weight: 400;
+  color: #f3bf99;
+}
+
+h2 {
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+a.button {
+  font-size: 0.875rem;
+  padding: 10px 14px;
+  font-weight: 400;
+  border-radius: 6px;
+  width: 100%;
+}
+a.button:hover {
+  opacity: 0.9;
+}
+
+a.about-website,
+.desc {
+  font-size: 0.625rem;
+  font-weight: 400;
+  color: #fff;
+  line-height: 16px;
+}
+
+a.about-website:hover {
+  text-decoration: underline;
+}
+
+.card-wrapper {
+  max-width: 320px;
+  background: #1a1b21;
+  border-radius: 10px;
+  margin: 2em auto;
+}
+
+.about-image-wrapper {
+  background-image: url("/src/assets/laszlo-papp.jpg");
+  width: 100%;
+  height: 300px;
+  background-position: 60% 0;
+  background-repeat: no-repeat;
+  background-size: 130%;
+  border-radius: 10px 10px 0 0;
+}
+
+.info-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  text-align: center;
+  padding: 21px 35px;
+}
+.info-wrapper .about-website {
+  display: block;
+}
+.info-wrapper h1,
+.info-wrapper h3 {
+  margin-bottom: 8px;
+}
+.info-wrapper .buttons-wrapper {
+  padding-top: 1rem;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+.info-wrapper .buttons-wrapper .button-white {
+  background: #fff;
+  color: #1a1b21;
+}
+.info-wrapper .buttons-wrapper .button-blue {
+  background: #5093e2;
+  color: #fff;
+}
+
+.about-and-interests-wrapper {
+  padding: 0 35px 21px;
+}
+.about-and-interests-wrapper h2 {
+  margin-bottom: 6px;
+}
+.about-and-interests-wrapper .interests-wrapper {
+  padding-top: 21px;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  padding: 20px;
+  background: #161619;
+  border-radius: 0 0 10px 10px;
+}
+.footer a.social-link {
+  color: #918e9b;
+}
+.footer a.social-link:hover {
+  color: #fff;
+}/*# sourceMappingURL=index.css.map */

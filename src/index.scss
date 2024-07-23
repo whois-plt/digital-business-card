@@ -1,0 +1,150 @@
+// vars
+
+$bodyColor: #23252c;
+$cardBackgroundColor: #1a1b21;
+$white: #fff;
+$linkedInBlue: #5093e2;
+$lightBrown: #f3bf99;
+$footerColor: #161619;
+$footerLinkColor: #918e9b;
+
+$fontInter: "Inter", sans-serif;
+
+// default
+
+body {
+  margin: 0;
+  background: $bodyColor;
+  font-family: $fontInter;
+}
+
+h1,
+h2,
+h3,
+p,
+button {
+  color: $white;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+// typo
+
+h1 {
+  font-size: 1.563rem;
+  font-weight: 700;
+}
+
+h3 {
+  font-size: 0.75rem;
+  font-weight: 400;
+  color: $lightBrown;
+}
+
+h2 {
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+a.button {
+  font-size: 0.875rem;
+  padding: 10px 14px;
+  font-weight: 400;
+  border-radius: 6px;
+  width: 100%;
+  &:hover {
+    opacity: 0.9;
+  }
+}
+
+a.about-website,
+.desc {
+  font-size: 0.625rem;
+  font-weight: 400;
+  color: $white;
+  line-height: 16px;
+}
+
+a.about-website:hover {
+  text-decoration: underline;
+}
+
+// Header
+
+.card-wrapper {
+  max-width: 320px;
+  background: $cardBackgroundColor;
+  border-radius: 10px;
+  margin: 2em auto;
+}
+
+.about-image-wrapper {
+  background-image: url("/src/assets/laszlo-papp.jpg");
+  width: 100%;
+  height: 300px;
+  background-position: 60% 0;
+  background-repeat: no-repeat;
+  background-size: 130%;
+  border-radius: 10px 10px 0 0;
+}
+
+.info-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  text-align: center;
+  padding: 21px 35px;
+  & .about-website {
+    display: block;
+  }
+  & h1,
+  h3 {
+    margin-bottom: 8px;
+  }
+  & .buttons-wrapper {
+    padding-top: 1rem;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    & .button-white {
+      background: $white;
+      color: $cardBackgroundColor;
+    }
+    & .button-blue {
+      background: $linkedInBlue;
+      color: $white;
+    }
+  }
+}
+
+// about & interests
+
+.about-and-interests-wrapper {
+  padding: 0 35px 21px;
+  & h2 {
+    margin-bottom: 6px;
+  }
+  & .interests-wrapper {
+    padding-top: 21px;
+  }
+}
+
+// footer
+
+.footer {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  padding: 20px;
+  background: $footerColor;
+  border-radius: 0 0 10px 10px;
+  & a.social-link {
+    color: $footerLinkColor;
+    &:hover {
+      color: $white;
+    }
+  }
+}
