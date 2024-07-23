@@ -5,8 +5,8 @@ const About = () => {
     <div className="about-wrapper">
       <h2>About</h2>
       <p className="desc">
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat repellat dolore, ut nesciunt rem vitae, iste
-        numquam delectus labore hic quam dolores architecto blanditiis saepe fugit placeat unde tenetur totam?
+        I’m László Papp, a frontend developer specializing in HTML/CSS/JavaScript, and also, have 4+ years of experience
+        with WordPress, Elementor, and a bit of PHP.
       </p>
     </div>
   )
